@@ -7,3 +7,34 @@ function countLike1() {
 }
 
 btnLike1.addEventListener("click", countLike1);
+
+const btnLike2 = document.getElementById("btnLike2");
+const count2 = document.getElementById("count2");
+
+function countLike2() {
+  let likeCounts = parseInt(count2.value) + 1;
+  count2.textContent = likeCounts.toString();
+}
+
+btnLike2.addEventListener("click", countLike2);
+
+const btnDislike1 = document.getElementById("btnLike1");
+const count3 = document.getElementById("count3");
+
+function countDislike1() {
+  let likeCounts = parseInt(count3.value) + 1;
+  count3.textContent = likeCounts.toString();
+}
+btnLike1.addEventListener("click", countLike1);
+
+
+
+
+const btnDislike2 = document.getElementById("btnLike2");
+const count4 = document.getElementById("count4");
+
+function countDislike2() {
+  let likeCounts = parseInt(count4.value) + 1;
+  count4.textContent = likeCounts.toString();
+}
+btnLike1.addEventListener("click", countLike2)
