@@ -25,7 +25,7 @@ function countDislike1() {
   let DislikeCounts = parseInt(count3.value) + 1;
   count3.textContent = DislikeCounts.toString();
 }
-btnDislike1.addEventListener("click", countDisLike1);
+btnDislike1.addEventListener("click", countDislike1);
 
 
 
