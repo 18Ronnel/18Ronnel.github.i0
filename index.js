@@ -18,23 +18,23 @@ function countLike2() {
 
 btnLike2.addEventListener("click", countLike2);
 
-const btnDislike1 = document.getElementById("btnDislike1");
+const btnDisLike1 = document.getElementById("btnDisLike1");
 const count3 = document.getElementById("count3");
 
-function countDislike1() {
-  let DislikeCounts = parseInt(count3.value) + 1;
-  count3.textContent = DislikeCounts.toString();
+function countDisLike1() {
+  let DisLikeCounts = parseInt(count3.value) + 1;
+  count3.textContent = DisLikeCounts.toString();
 }
-btnDislike1.addEventListener("click", countDislike1);
+btnDisLike1.addEventListener("click", countDisLike1);
 
 
 
 
-const btnDislike2 = document.getElementById("btnDislike2");
+const btnDisLike2 = document.getElementById("btnDisLike2");
 const count4 = document.getElementById("count4");
 
-function countDislike2() {
-  let DislikeCounts = parseInt(count4.value) + 1;
-  count4.textContent = DislikeCounts.toString();
+function countDisLike2() {
+  let DisLikeCounts = parseInt(count4.value) + 1;
+  count4.textContent = DisLikeCounts.toString();
 }
-btnDislike2.addEventListener("click", countDislike2)
+btnDisLike2.addEventListener("click", countDisLike2)
