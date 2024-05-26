@@ -1,40 +1,39 @@
-const btnLike1 = document.getElementById("btnLike1");
-const count1 = document.getElementById("count1");
+const btnLike1 = document.getElementById("btnLike1")
+const count1 = document.getElementById("count1")
 
 function countLike1() {
-  let likeCounts = parseInt(count1.value) + 1;
-  count1.textContent = likeCounts.toString();
+  let likeCounts = parseInt(count1.value) + 1
+  count1.textContent = likeCounts.toString()
 }
 
-btnLike1.addEventListener("click", countLike1);
+btnLike1.addEventListener("click", countLike1)
 
-const btnLike2 = document.getElementById("btnLike2");
-const count2 = document.getElementById("count2");
+const btnLike2 = document.getElementById("btnLike2")
+const count2 = document.getElementById("count2")
 
 function countLike2() {
-  let likeCounts = parseInt(count2.value) + 1;
-  count2.textContent = likeCounts.toString();
+  let likeCounts = parseInt(count2.value) + 1
+  count2.textContent = likeCounts.toString()
 }
 
-btnLike2.addEventListener("click", countLike2);
+btnLike2.addEventListener("click", countLike2)
 
-const btnDisLike1 = document.getElementById("btnDisLike1");
-const count3 = document.getElementById("count3");
+const btnDislike1 = document.getElementById("btnDislike1")
+const count3 = document.getElementById("count3")
 
-function countDisLike1() {
-  let DisLikeCounts = parseInt(count3.value) + 1;
-  count3.textContent = DisLikeCounts.toString();
+function countDislike1() {
+  let DislikeCounts = parseInt(count3.value) + 1
+  count3.textContent = DislikeCounts.toString()
 }
-btnDisLike1.addEventListener("click", countDisLike1);
 
+btnDislike1.addEventListener("click", countDislike1)
 
+const btnDislike2 = document.getElementById("btnDislike2")
+const count4 = document.getElementById("count4")
 
-
-const btnDisLike2 = document.getElementById("btnDisLike2");
-const count4 = document.getElementById("count4");
-
-function countDisLike2() {
-  let DisLikeCounts = parseInt(count4.value) + 1;
-  count4.textContent = DisLikeCounts.toString();
+function countDislike2() {
+  let DislikeCounts = parseInt(count4.value) + 1
+  count4.textContent = DislikeCounts.toString()
 }
-btnDisLike2.addEventListener("click", countDisLike2)
+
+btnDislike2.addEventListener("click", countDislike2)
