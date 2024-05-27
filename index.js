@@ -28,6 +28,7 @@ function countDislike1() {
 
 btnDislike1.addEventListener("click", countDislike1)
 
+
 const btnDislike2 = document.getElementById("btnDislike2")
 const count4 = document.getElementById("count4")
 
