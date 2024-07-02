@@ -1,63 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT Cellphone Store</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-20 text center">
-                <h2> Motor Shop By Ronnel Nitoya </h2>
+            <div class="col-15 text-center">
+                <h2>AT Cellphone Store</h2>
                 <hr class="hr" />
             </div>
         </div>
         <div class="row">
+            <!-- Product 1 -->
             <div class="col-4 text-center">
-                <label id="product1">YAMAHA NMAX </label>   
-                <img src="images/s21.png" style="width:400px;height:500px;" class="img-thumbnail"/><br>
+                <label id="product1">Samsung S21</label>
+                <img src="images/s21.png" style="width:400px;height:500px;" class="img-thumbnail" /><br>
                 <label for="product1" id="price1">27000.00</label>
-                <input type="number" class="form-control" id="qty1" placeholder="Enter quantity"/><br>
+                <input type="number" class="form-control" id="qty1" placeholder="Enter quantity" /><br>
             </div>
+            <!-- Product 2 -->
             <div class="col-4 text-center">
-                <label id="product2"> SUZUKI BURGMAN  </label>   
-                <img src="images/s22.png" style="width:400px;height:500px;" class="img-thumbnail"/><br>
+                <label id="product2">Samsung S22</label>
+                <img src="images/s22.png" style="width:400px;height:500px;" class="img-thumbnail" /><br>
                 <label for="product2" id="price2">37000.00</label>
-                <input type="number" class="form-control" id="qty2" placeholder="Enter quantity"/><br>
+                <input type="number" class="form-control" id="qty2" placeholder="Enter quantity" /><br>
             </div>
+            <!-- Product 3 -->
             <div class="col-4 text-center">
-                <label id="product3"> YAMAHA MIO GEAR </label>   
-                <img src="images/iphone13.png" style="width:400px;height:500px;" class="img-thumbnail"/><br>
-                <label for="product3" id="price3">50000.00</label>
-                <input type="number" class="form-control" id="qty3" placeholder="Enter quantity"/><br>
+                <label id="product3">iPhone 13</label>
+                <img src="images/iphone13.png" style="width:400px;height:500px;" class="img-thumbnail" /><br>
+                <label for="product3" id="price3">45000.00</label>
+                <input type="number" class="form-control" id="qty3" placeholder="Enter quantity" /><br>
             </div>
+            <!-- Product 4 -->
             <div class="col-4 text-center">
-                <label id="product4"> SUZUKI RAIDER R150</label>   
-                <img src="images/iphone14.png" style="width:400px;height:500px;" class="img-thumbnail"/><br>
-                <label for="product4" id="price4">60000.00</label>
-                <input type="number" class="form-control" id="qty4" placeholder="Enter quantity"/><br>
+                <label id="product4">iPhone 14</label>
+                <img src="images/iphone14.png" style="width:400px;height:500px;" class="img-thumbnail" /><br>
+                <label for="product4" id="price4">55000.00</label>
+                <input type="number" class="form-control" id="qty4" placeholder="Enter quantity" /><br>
             </div>
+            <!-- Product 5 -->
             <div class="col-4 text-center">
-                <label id="product5"> SUZUKI SMASH FI </label>   
-                <img src="images/pixel6.png" style="width:400px;height:500px;" class="img-thumbnail"/><br>
-                <label for="product5" id="price5">45000.00</label>
-                <input type="number" class="form-control" id="qty5" placeholder="Enter quantity"/><br>
+                <label id="product5">Huawei P50</label>
+                <img src="images/p50.png" style="width:400px;height:500px;" class="img-thumbnail" /><br>
+                <label for="product5" id="price5">32000.00</label>
+                <input type="number" class="form-control" id="qty5" placeholder="Enter quantity" /><br>
             </div>
+            <!-- Product 6 -->
             <div class="col-4 text-center">
-                <label id="product6"> YAMAHA AEROX 155 </label>   
-                <img src="images/pixel7.png" style="width:400px;height:500px;" class="img-thumbnail"/><br>
-                <label for="product6" id="price6">55000.00</label>
-                <input type="number" class="form-control" id="qty6" placeholder="Enter quantity"/><br>
+                <label id="product6">Huawei P60</label>
+                <img src="images/p60.png" style="width:400px;height:500px;" class="img-thumbnail" /><br>
+                <label for="product6" id="price6">42000.00</label>
+                <input type="number" class="form-control" id="qty6" placeholder="Enter quantity" /><br>
             </div>
+            <!-- Orders and Payments -->
             <div class="col-4">
-                <label for="carts"> Orders </label><br>
+                <label for="carts">Orders</label><br>
                 <textarea class="form-control" rows="29" id="carts" cols="200" readonly style="width:350px;height:400px;font-size:12px;"></textarea><br>
-                <label for="total" id="total"></label><br>
-                <input type="number" class="form-control" id="cash" placeholder="Cash Tendered"/><br>
-                <input type="text" class="form-control border-0" id="change" readonly placeholder="Change"/>
+                <input type="number" class="form-control" id="cash" placeholder="Cash Tendered" /><br>
+                <input type="text" class="form-control border-0" id="change" readonly placeholder="Change" /><br>
+                <label id="total" style="font-size:18px; font-weight:bold;"></label>
             </div>
         </div>
     </div>
     <script src="app.js"></script>
 </body>
 </html>
+          
