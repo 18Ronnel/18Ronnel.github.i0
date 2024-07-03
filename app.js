@@ -11,7 +11,7 @@ var products = [
 var carts = document.getElementById("carts");
 var cash = document.getElementById("cash");
 var change = document.getElementById("change");
-var totalElement = document.getElementById("total");
+var totalElement = document.getElementById("change");
 
 // Function to add order
 function addOrder() {
