@@ -30,33 +30,11 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             transition: transform 0.2s, background-color 0.3s;
         }
-        .product-card:hover {
-            transform: scale(1.05);
-        }
-        /* Background colors for each product */
-        .product-card:nth-child(1) {
-            background-color: yellow;
-        }
-        .product-card:nth-child(2) {
-            background-color: orange;
-        }
-        .product-card:nth-child(3) {
-            background-color: blue;
-        }
-        .product-card:nth-child(4) {
-            background-color: green;
-        }
-        .product-card:nth-child(5) {
-            background-color: violet;
-        }
-        .product-card:nth-child(6) {
-            background-color: brown;
-        }
         .product-card:hover img {
             transform: scale(1.1);
         }
         .product-card .img-container {
-            background-color: #e9ecef;
+            background-color: #e9ecef; /* Background color for image container */
             padding: 20px;
             border-radius: 10px;
         }
@@ -85,6 +63,25 @@
         .container {
             margin-top: 20px;
         }
+        /* Specific hover background colors for each product */
+        #product1:hover {
+            background-color: yellow;
+        }
+        #product2:hover {
+            background-color: orange;
+        }
+        #product3:hover {
+            background-color: blue;
+        }
+        #product4:hover {
+            background-color: green;
+        }
+        #product5:hover {
+            background-color: violet;
+        }
+        #product6:hover {
+            background-color: brown;
+        }
     </style>
 </head>
 <body>
@@ -98,59 +95,59 @@
         </div>
         <div class="row">
             <!-- Product 1 -->
-            <div class="col-md-4 text-center product-card">
-                <label class="product-label" id="product1">YAMAHA NMAX</label>   
+            <div class="col-md-4 text-center product-card" id="product1">
+                <label class="product-label">YAMAHA NMAX</label>   
                 <div class="img-container">
                     <img src="nmax.png" class="img-thumbnail"/>
                 </div>
-                <label class="price-label" for="product1" id="price1">₱150,000.00</label>
+                <label class="price-label">₱150,000.00</label>
                 <input type="number" class="form-control" id="qty1" placeholder="Enter quantity"/><br>
             </div>
             <!-- Product 2 -->
-            <div class="col-md-4 text-center product-card">
-                <label class="product-label" id="product2">SUZUKI BURGMAN</label>   
+            <div class="col-md-4 text-center product-card" id="product2">
+                <label class="product-label">SUZUKI BURGMAN</label>   
                 <div class="img-container">
                     <img src="burgman.png" class="img-thumbnail"/>
                 </div>
-                <label class="price-label" for="product2" id="price2">₱70,000.00</label>
+                <label class="price-label">₱70,000.00</label>
                 <input type="number" class="form-control" id="qty2" placeholder="Enter quantity"/><br>
             </div>
             <!-- Product 3 -->
-            <div class="col-md-4 text-center product-card">
-                <label class="product-label" id="product3">YAMAHA AEROX</label>   
+            <div class="col-md-4 text-center product-card" id="product3">
+                <label class="product-label">YAMAHA AEROX</label>   
                 <div class="img-container">
                     <img src="aerox.png" class="img-thumbnail"/>
                 </div>
-                <label class="price-label" for="product3" id="price3">₱150,000.00</label>
+                <label class="price-label">₱150,000.00</label>
                 <input type="number" class="form-control" id="qty3" placeholder="Enter quantity"/><br>
             </div>
         </div>
         <div class="row">
             <!-- Product 4 -->
-            <div class="col-md-4 text-center product-card">
-                <label class="product-label" id="product4">YAMAHA MIO GEAR</label>   
+            <div class="col-md-4 text-center product-card" id="product4">
+                <label class="product-label">YAMAHA MIO GEAR</label>   
                 <div class="img-container">
                     <img src="mio.png" class="img-thumbnail"/>
                 </div>
-                <label class="price-label" for="product4" id="price4">₱90,000.00</label>
+                <label class="price-label">₱90,000.00</label>
                 <input type="number" class="form-control" id="qty4" placeholder="Enter quantity"/><br>
             </div>
             <!-- Product 5 -->
-            <div class="col-md-4 text-center product-card">
-                <label class="product-label" id="product5">SUZUKI RAIDER150</label>   
+            <div class="col-md-4 text-center product-card" id="product5">
+                <label class="product-label">SUZUKI RAIDER150</label>   
                 <div class="img-container">
                     <img src="raider.png" class="img-thumbnail"/>
                 </div>
-                <label class="price-label" for="product5" id="price5">₱100,000.00</label>
+                <label class="price-label">₱100,000.00</label>
                 <input type="number" class="form-control" id="qty5" placeholder="Enter quantity"/><br>
             </div>
             <!-- Product 6 -->
-            <div class="col-md-4 text-center product-card">
-                <label class="product-label" id="product6">SUZUKI SMASH FI</label>   
+            <div class="col-md-4 text-center product-card" id="product6">
+                <label class="product-label">SUZUKI SMASH FI</label>   
                 <div class="img-container">
                     <img src="smash.png" class="img-thumbnail"/>
                 </div>
-                <label class="price-label" for="product6" id="price6">₱90,000.00</label>
+                <label class="price-label">₱90,000.00</label>
                 <input type="number" class="form-control" id="qty6" placeholder="Enter quantity"/><br>
             </div>
         </div>
