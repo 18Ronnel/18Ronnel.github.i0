@@ -26,6 +26,10 @@
         .header .logo {
             width: 165px; /* Adjust size as needed */
             height: auto;
+            transition: transform 0.3s;
+        }
+        .header .logo:hover {
+            transform: scale(1.1);
         }
         .product-card {
             background-color: #ffffff;
@@ -93,7 +97,7 @@
     <div class="container">
         <div class="row header text-center">
             <div class="col-2 text-left">
-                <img src="logo.png" class="logo" alt="Left Logo"></a>
+                <img src="logo.png" class="logo" alt="Left Logo">
             </div>
             <div class="col-8">
                 <h2>MOTOR SHOP</h2>
@@ -101,7 +105,7 @@
                 <hr class="hr" />
             </div>
             <div class="col-2 text-right">
-              <img src="logo.png" class="logo" alt="Right Logo"></a>  
+                <img src="logo.png" class="logo" alt="Right Logo">
             </div>
         </div>
         <div class="row">
