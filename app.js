@@ -84,7 +84,7 @@ function addOrder(){
 
 }
 
-function calculateChange() {
+function calculateChange(totalAmount) {
   let totalPrice = parseFloat(total.value.replace('₱ ', ''));
   let cashTendered = parseFloat(cash.value);
   if (!isNaN(totalPrice) && !isNaN(cashTendered) && cashTendered >= totalPrice) {
