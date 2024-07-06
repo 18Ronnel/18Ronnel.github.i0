@@ -20,21 +20,14 @@
             margin: 0;
             font-family: 'Courier New', Courier, monospace;
             overflow: hidden;
-            border-right: .15em solid #e9ecef;
             white-space: nowrap; 
             margin: 0 auto; 
             letter-spacing: .15em;
-            animation: 
-                typing 3.5s steps(40, end),
-                blink-caret .30s step-end infinite;
+            animation: typing 3.5s steps(40, end);
         }
         @keyframes typing {
             from { width: 0 }
             to { width: 100% }
-        }
-        @keyframes blink-caret {
-            from, to { border-color: transparent }
-            50% { border-color: #e9ecef; }
         }
         .hr {
             border-top: 3px solid #343a40;
