@@ -15,23 +15,26 @@
             padding: 20px 0;
             position: relative;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-            animation: shadow-pulse 2s infinite;
-        }
-        @keyframes shadow-pulse {
-            0% {
-                box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-            }
-            50% {
-                box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
-            }
-            100% {
-                box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-            }
         }
         .header h2 {
             margin: 0;
-            text-shadow: 3px 3px 0 #e9ecef, -1px -1px 0 #e9ecef, 3px -1px 0 #e9ecef, -1px 3px 0 #e9ecef;
             font-family: 'Courier New', Courier, monospace;
+            overflow: hidden;
+            border-right: .15em solid #e9ecef;
+            white-space: nowrap; 
+            margin: 0 auto; 
+            letter-spacing: .15em;
+            animation: 
+                typing 3.5s steps(40, end),
+                blink-caret .75s step-end infinite;
+        }
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: #e9ecef; }
         }
         .hr {
             border-top: 3px solid #343a40;
